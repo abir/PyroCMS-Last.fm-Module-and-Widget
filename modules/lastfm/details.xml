@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.3" type="admin">
+	<name>
+		<en>Last.fm</en>
+        <pl>Last.fm</pl>
+		<es>Last.fm</es>
+		<fr>Last.fm</fr>
+		<de>Last.fm</de>
+	</name>
+	<description>
+		<en>Show Last.fm scrobbled songs.</en>
+		<es>Show Last.fm scrobbled songs.</es>
+		<fr></fr>
+		<de>Show Last.fm scrobbled songs.</de>
+        <pl>Show Last.fm scrobbled songs.</pl>
+	</description>
+	<is_frontend>0</is_frontend>
+	<is_backend>0</is_backend>
+	<is_backend_menu>0</is_backend_menu>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>setdefault</method>
+		</controller>
+	</controllers>
+</module>

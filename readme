@@ -1,0 +1,9 @@
+Last.fm Module and Widget for PyroCMS
+
+INSTALL-
+1. Copy the modules/lastfm folder to modules/lastfm/
+2. Copy the widgets/lastfm_feed folder to widgets/lastfm_feed/
+3. Run lastfm.sql
+4. Setup your widget under admin -> widgets
+5. ???
+6. Profit
